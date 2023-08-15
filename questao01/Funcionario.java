@@ -92,16 +92,14 @@ public class Funcionario {
         this.horasTrabalhadas = horasTrabalhadas;
     }
 
-    public String imprimeDados() {
-        return "Funcionario{" +
-                "nome='" + nome + '\'' +
-                ", cpf='" + cpf + '\'' +
-                ", rg='" + rg + '\'' +
-                ", matricula=" + matricula +
-                ", salario=" + salario +
-                ", dataContratacao=" + dataContratacao +
-                ", salarioBase=" + salarioBase +
-                ", horasTrabalhadas=" + horasTrabalhadas +
-                '}';
+    public void imprimeDados() {
+        System.out.println("Nome: " + this.getNome());
+        System.out.println("CPF: " + this.getCpf());
+        System.out.println("RG: " + this.getRg());
+        System.out.println("Matricula: " + this.getMatricula());
+        System.out.println("Salário: " + this.getSalario());
+        System.out.println("Data de Contratação: " + this.getDataContratacao());
+        System.out.println("Salário Base: " + this.getSalarioBase());
+        System.out.println("Horas Trabalhadas: " + this.getHorasTrabalhadas());
     }
 }
