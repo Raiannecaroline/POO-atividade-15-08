@@ -31,7 +31,7 @@ public class Programa {
      * R: Está criando um objeto e colocando os valores nos parâmetros que são o mesmo do construtor.
      *
      * b)	Porque construção das linhas 7 e 8 é permitida?
-     * R: Porque está instanciando os atributos e “setando” valores para as instâncias.
+     * R: Porque o modificador de acesso está default (ou seja, público)
      *
      * c)	Nas linhas 9 e 10, acessamos os atributos salário e matrícula do funcionário. Essa construção implementada nas linhas 9 e 10 é permitida pelo objeto funcionário? Justifique a sua resposta.
      * R: Sim, pois está acessando esses atributos através encapsulamento.
